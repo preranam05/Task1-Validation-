@@ -1,0 +1,17 @@
+ 
+  0:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: 127.0.0.1
+    port_no: 8793
+    libfabric_port: 7500
+    if_device: eth0
+  
+  1:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: 127.0.0.1
+    port_no: 8794
+    libfabric_port: 7500
+    if_device: eth1
+ 
